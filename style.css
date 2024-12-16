@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
-h1, href{
-	font-family: "Lexend", sans-serif;
-	color: #00ff66;
-	text-shadow: 0 0 5px #00ff66;
-}
-h2, h3, h4, h5, h6, p, div{
-	font-family: "Lexend", sans-serif;
+body, input, .bypass-colors {
+  background-color: #0F6;
+  color: white;
 	text-shadow: 0 0 10px black;
+}
+.button, .buttonnocenter {
+padding: 10px; line-height: 25px; border-radius: 5px; box-shadow: #0008 0 0 10px; display: inline-block; margin-bottom: 25px; cursor: pointer; }
+details > summary {
+  background-color: #0F6;
+  box-shadow: 3px 3px 4px #0008;
+}
+details > p {
+  background-color: #0F6;
+  box-shadow: 3px 3px 4px #0008;
+}
+details[open] > summary {
+  background-color: #0008;
 }
