@@ -1,0 +1,43 @@
+body {
+  color: white;
+  background-color: #333;
+  text-shadow: 0 0 0.5rem black;
+  font-family: "Lexend", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  background-image: url('Grid.png');
+  background-size: 5rem;
+}
+h1 {
+  color: #0f6;
+  text-shadow: 0 0 0.5rem #0f6;
+  font-size: 4rem;
+}
+.button {
+  box-shadow: 0 0 0.5rem #0008;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5rem;
+  border: none;
+  display: inline-block;
+  margin: 0.75rem;
+  transition-duration: 0.2s;
+  background-color: #333;
+}
+.button:hover {
+  background-color: #444;
+  cursor: pointer;
+  font-weight: 700;
+}
+.button:active {
+  background-color: #333;
+  font-weight: 400;
+}
+hr {
+  color: #fffa;
+  box-shadow: 0 0 0.5rem black;
+  width: 90%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
