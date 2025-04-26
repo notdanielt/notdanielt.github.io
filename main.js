@@ -8,4 +8,4 @@ function switchpage(page) {
   document.getElementById(page).style.display = "";
   window.scrollTo(0, 0);
 }
-switchpage("introduction")
+switchpage("introduction");
