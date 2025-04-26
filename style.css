@@ -7,6 +7,10 @@ body {
   text-align: center;
   background-image: url('Grid.png');
   background-size: 5rem;
+  animation: scroll 5s infinite linear;
+}
+@keyframes scroll {
+  100% {background-position: 5rem 5rem;}
 }
 h1 {
   color: #0f6;
