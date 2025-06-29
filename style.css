@@ -16,15 +16,14 @@ h1 {
   color: #0f6;
   text-shadow: 0 0 0.5rem #0f6;
   font-size: 4rem;
+  margin-bottom: 0.5rem;
 }
 .button {
   box-shadow: 0 0 0.5rem #0008;
-  padding: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 1.5rem;
-  border: none;
   display: inline-block;
+  border: none;
   margin: 0.75rem;
   transition-duration: 0.2s;
   background-color: #333;
@@ -38,10 +37,25 @@ h1 {
   background-color: #333;
   font-weight: 400;
 }
+.flexbox {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 hr {
   color: #fffa;
   box-shadow: 0 0 0.5rem black;
   width: 90%;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+img {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  filter: drop-shadow(0 0 0.5rem #0008);
+}
+.footer { 
+  position: fixed;
+  bottom: 2rem;
+  width:100%;
+  text-align: center;
 }
