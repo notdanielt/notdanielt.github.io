@@ -53,9 +53,10 @@ img {
   padding: 0.5rem 0.5rem 0.5rem 0;
   filter: drop-shadow(0 0 0.5rem #0008);
 }
-.footer { 
+.footer {
+  color: #ffffff40;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.5rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
