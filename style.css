@@ -12,6 +12,15 @@ body {
 @keyframes scroll {
   100% {background-position: 5rem 5rem;}
 }
+html::before {
+  box-sizing: border-box;
+  content: "";
+  box-shadow: 0 0 10rem #0008 inset;
+  height: 100vh;
+  pointer-events: none;
+  position: fixed;
+  width: 100vw;
+}
 h1 {
   color: #0f6;
   text-shadow: 0 0 0.5rem #0f6;
@@ -59,4 +68,5 @@ img {
   bottom: 0.5rem;
   width: 100%;
   text-align: left;
+  pointer-events: none;
 }
